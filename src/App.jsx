@@ -1,9 +1,13 @@
-import React from "react";
+// import React from "react";
+import "./App.css";
+import Hero from "./components/Hero";
+import Nav from "./components/Nav";
 
 const App = () => {
   return (
     <div>
-      <h1>Let's Create brand page</h1>
+      <Nav />
+      <Hero />
     </div>
   );
 };

@@ -1,0 +1,28 @@
+.hero {
+  display: flex;
+  align-items: center;
+  height: calc(100vh-72px);
+}
+
+.hero--content {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+.hero--content h1 {
+  color: #000;
+  font-size: 108px;
+  font-weight: 800;
+  line-height: 102px;
+}
+.hero--content p {
+  color: var(--gray, #5a5959);
+  font-weight: 600;
+  max-width: 400px;
+  margin-bottom: 8px;
+}
+
+.hero--btn__container {
+  display: flex;
+  gap: 40px;
+}
